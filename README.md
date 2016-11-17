@@ -1,6 +1,6 @@
 # qrcode-decode-server
 
-# Requirement
+## Requirement
 ```
 $ sudo yum install zbar-devel.x86_64
 $ pip install Pillow
@@ -10,13 +10,13 @@ $ pip install tornado
 ```
 
 
-# Run
+## Run
 ```
 $ python server.py
 ```
 
 
-# Test
+## Test
 ```
 $ curl -XGET 'http://localhost'
 ```
