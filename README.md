@@ -1,5 +1,7 @@
 # qrcode-decode-server
 
+![](https://github.com/hyeonjae/qrcode-decode-server/blob/master/guide.gif)
+
 ## Requirement
 ```
 $ sudo yum install zbar-devel.x86_64
