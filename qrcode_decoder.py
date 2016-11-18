@@ -39,9 +39,9 @@ def decode():
     else:
       logger.info('url: %s, text: %s'%(url, texts))
       return Response(
-          response = json.dumps({'codes': texts}),
-          status = 200,
-          mimetype = 'application/json'
+          response=json.dumps({'codes': texts}),
+          status=200,
+          mimetype='application/json'
       )
 
 def decodeQrcode(img):
